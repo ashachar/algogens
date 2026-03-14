@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Environment
+.env
+.venv/
+env/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.log.*
+
+# Evidence packages (large, not for public repo)
+paper_evidence_package*/
+
+# LaTeX submission (keep private until publication)
+algogens_ai_submission_renamed_package/
+
+# Internal docs
+EMPLOYEE_HANDOFF*.md
+ALGOGENS_V3_2_FULL_BRIEFING.md
+EVIDENCE_PACKAGE_*.md
+
+# API keys and credentials
+*.key
+*.pem
+credentials*.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data cache
+data/cache/
