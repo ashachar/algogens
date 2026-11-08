@@ -23,7 +23,7 @@ The pipeline terminates after at most K+1 model calls (default K=3), with early 
 - On clean inputs, generic self-refinement matches structured repair (both ~76-78% on Gripper)
 - Under validator-targeted perturbations, structured repair outperforms self-refinement by 33-53 percentage points
 - The repair advantage held for both models evaluated (Claude Sonnet 4.6 and GPT-5.4); broader model coverage is future work
-- Repair dominates blind retry in cost-accuracy terms (higher accuracy at lower cost), reaching its accuracy at roughly 2x the cost of one-shot generation
+- Cost comparisons against a blind-retry baseline are withdrawn: that baseline chose its best attempt using the gold answer, so it is not a fair comparison
 
 ## Project Structure
 
